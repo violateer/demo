@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/*禁用横向滚动条*/
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+img {
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*版心*/
+.w {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/*font-icon*/
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+/* 给路由页面添加上边距 */
+.init {
+    margin-top: 60px;
+    position: relative;
+}
+
+/* 调整行号插件 */
+.hljs-line-numbers {
+    text-align: right;
+    /*以下3行要加 !important 来避免样式覆盖*/
+    border-right: 1px solid #ccc !important;
+    margin-right: 10px !important;
+    padding-right: 5px !important;
+    color: #999;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
